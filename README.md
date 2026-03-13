@@ -14,6 +14,7 @@ A machine learning web application for optimizing fermentation media composition
 - [Usage](#usage)
 - [Model Details](#model-details)
 - [Visualizations](#visualizations)
+- [GitHub Copilot Usage](#github-copilot-usage)
 - [Model Performance](#model-performance)
 
 ---
@@ -195,6 +196,14 @@ The repository includes the following analysis plots:
 | `media_cost_actual_vs_predicted.png` | Actual vs. predicted media cost (parity plot) |
 | `Parity_Media_Cost_Efficiency_Indirect_ML.png` | Actual vs. predicted cost efficiency via indirect ML |
 | `efficiency_ml_failure.png` | Analysis of why direct efficiency prediction underperforms |
+
+---
+
+## GitHub Copilot Usage
+
+This repository is configured for use with [GitHub Copilot](https://github.com/features/copilot). Project-specific instructions for Copilot are stored in [`.github/copilot-instructions.md`](.github/copilot-instructions.md).
+
+> **Model Availability Note:** `claude-opus-4.6` (Claude Opus) is no longer available through GitHub Copilot. Use a currently available Claude model instead, such as **`claude-3.5-sonnet`** or **`claude-3.7-sonnet`**. To switch, open Copilot Chat in VS Code and select a different model from the model picker.
 
 ---
 
